@@ -15,17 +15,17 @@ import java.util.Scanner;
 
 // Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
 
-class EdgeExistance {
+class EdgeExistance {    
 
 	public static void main (String args []) throws Exception{
 
         Scanner s = new Scanner(System.in);
-        int nodes = s.nextInt();
+        int nodes1 = s.nextInt();
         int edges = s.nextInt();
         int x,y;
-		int [][] links = new int [nodes][nodes];
-        for(int i=0;i<nodes;i++){
-        	for(int j=0;j<nodes;j++){
+		int [][] links = new int [nodes1][nodes1];
+        for(int i=0;i<nodes1;i++){
+        	for(int j=0;j<nodes1;j++){
         		links [i][j] = 0;
         	}
         }
